@@ -36,6 +36,51 @@ section {
 
  .login-container {
      background-color: azure;
-     margin: 2em -4em 0;
-     padding: 2em;
+     border-radius: .4em;
+     padding: 1em;
+     
  }
+
+ label{
+     color: darkblue;
+     display: contents;
+     
+ }
+
+ input[type=text]{
+    border: 1px solid darkblue;
+    padding: .3em;
+    padding-left: .5em;
+    border-radius: .4em ;
+    margin: .4em;
+    box-sizing: border-box;
+ }
+
+ input[type=button]{
+     background-color: #6567c7;
+     border: none;
+     width: 8em;
+     padding: .4em 0;
+     border-radius: .4em;
+     color: white;
+     font-stretch: expanded;
+     font-family: 'Oswald', sans-serif;
+     cursor: pointer;
+  
+    
+ }
+
+ input[type=button]:hover{
+    background-color: #454796;
+   
+}
+
+.description p {
+    line-height: 1.9em;
+
+}
+
+.description h2{
+    text-transform: uppercase;
+    
+}
